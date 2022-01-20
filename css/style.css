@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/*CSS variables for color palette and fonts*/
+:root {
+    --base-color: white;
+    --accent-color: red;
+    --highlight-color:  yellow;
+    --favoritefont: 'Brush Script MT','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    --secondfont: 'Brush Script MT', 'Calibri', 'Trebuchet MS', 'cursive';
+}
+
+body {
+    font-family: var(--favoritefont);
+}
+    
+/* Header and Nav Style Start*/
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position:-webkit-sticky;
+    position: sticky;
+    padding: 20px 35px;
+    background-color: var(--accent-color);
+    color:var(--base-color);
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    padding-top: 25px;
+    margin-right: 5px;
+    font-family: var(--secondfont);
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+header nav ul li a {
+    color: var(--base-color);
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/* Header and Nav Style End*/
+
+/* Image Section with Subtitle Style Start */
+
+.hero {
+    display: flex;
+    position: relative;
+}
+
+.subtitle {
+    position: absolute;
+    align-self: center;
+    margin-left: 400px;
+    font-size: 75px;
+    color: black;
+}
+/* Image Section with Subtitle Style End  */
