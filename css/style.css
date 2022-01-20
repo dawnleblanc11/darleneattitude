@@ -8,14 +8,15 @@
     --base-color: white;
     --accent-color: red;
     --highlight-color:  yellow;
-    --favoritefont: 'Mr Bedford',cursive;
-    --secondfont: 'Brush Script MT', 'Calibri', 'Trebuchet MS', 'cursive';
+    --favoritefont: 'Mr Bedfort', cursive;
+    --secondfont: 'Mr Bedfort';
+
+    /* --secondfont: 'Brush Script MT', 'Calibri', 'Trebuchet MS', 'cursive'; */
 }
 
 body {
-    font-family: 'Mr Bedfort', cursive;
+    font-family: var(--favoritefont)
 }
-   /* font-family: var(--favoritefont)
     
 /* Header and Nav Style Start*/
 header {
@@ -33,7 +34,7 @@ header h1 {
     font-size: 48px;
 }
 
-header nav ul{
+.navbar{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -41,7 +42,8 @@ header nav ul{
     list-style: none;
     padding-top: 25px;
     margin-right: 5px;
-    font-family: var(--secondfont);
+    background-color: var(--accent-color);
+    font-family: var(--favoritefont);
     font-size: 20px;
 }
 
@@ -78,7 +80,8 @@ p {
     color: black;
 }
 /* Image Section with Subtitle Style End  */
-#scripture #about {
+#scripture,#about {
+    font-family: var(--secondfont); 
     box-sizing: inherit;
     max-width: 450px;
     padding: 10px, 10px, 10px, 10px;
