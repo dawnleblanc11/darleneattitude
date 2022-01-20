@@ -8,13 +8,14 @@
     --base-color: white;
     --accent-color: red;
     --highlight-color:  yellow;
-    --favoritefont: 'Brush Script MT','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    --favoritefont: 'Mr Bedford',cursive;
     --secondfont: 'Brush Script MT', 'Calibri', 'Trebuchet MS', 'cursive';
 }
 
 body {
-    font-family: var(--favoritefont);
+    font-family: 'Mr Bedfort', cursive;
 }
+   /* font-family: var(--favoritefont)
     
 /* Header and Nav Style Start*/
 header {
@@ -77,3 +78,9 @@ p {
     color: black;
 }
 /* Image Section with Subtitle Style End  */
+#scripture #about {
+    box-sizing: inherit;
+    max-width: 450px;
+    padding: 10px, 10px, 10px, 10px;
+    margin-left: 25px;
+}
