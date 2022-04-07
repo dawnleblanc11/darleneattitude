@@ -8,8 +8,8 @@
     --base-color: white;
     --accent-color: red;
     --highlight-color:  yellow;
-    --favoritefont: 'Mr Bedfort', cursive;
-    --secondfont: 'Mr Bedfort';
+    --favoritefont: 'Tangerine', cursive;;
+    --secondfont: 'Roboto Slab', serif;
 
     /* --secondfont: 'Brush Script MT', 'Calibri', 'Trebuchet MS', 'cursive'; */
 }
@@ -79,11 +79,24 @@ p {
     font-size: 75px;
     color: black;
 }
+
+
 /* Image Section with Subtitle Style End  */
 #scripture,#about {
-    font-family: var(--secondfont); 
+    
     box-sizing: inherit;
     max-width: 450px;
     padding: 10px, 10px, 10px, 10px;
     margin-left: 25px;
+}
+h1 h4 {
+    font-family: var(--favoritefont);
+}
+
+p {
+    font-family: var(--secondfont); 
+}
+
+#col-md-10 {
+  font-weight: bold;
 }
