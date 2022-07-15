@@ -8,10 +8,8 @@
     --base-color: white;
     --accent-color: red;
     --highlight-color:  yellow;
-    --favoritefont: 'Tangerine', cursive;;
-    --secondfont: 'Roboto Slab', serif;
-
-    /* --secondfont: 'Brush Script MT', 'Calibri', 'Trebuchet MS', 'cursive'; */
+    --favoritefont: 'Barlow', sans-serif ;
+    --secondfont: 'Barlow', sans-serif;
 }
 
 body {
@@ -62,6 +60,17 @@ header nav ul li a {
 
 p {
     font-size: 16px;
+    text-justify: inter-word;
+}
+
+button {
+    font-size: 20px;
+    color: var(--accent-color);
+    background-color: rgb(247, 247, 247);
+    outline: black;
+    border-radius: 30mm;
+    margin: 5px, 5px, 5px, 5px;
+
 }
 /* Header and Nav Style End*/
 
@@ -82,7 +91,7 @@ p {
 
 
 /* Image Section with Subtitle Style End  */
-#scripture,#about {
+#scripture,#about,#reachout {
     
     box-sizing: inherit;
     max-width: 450px;
@@ -97,6 +106,17 @@ p {
     font-family: var(--secondfont); 
 }
 
-#col-md-10 {
-  font-weight: bold;
+.col-md-10 {
+  font-weight: 600;
 }
+
+#focus {
+    background-color: rgb(247, 247, 247);
+    outline-style: dotted;
+    outline-color: darkgrey;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
