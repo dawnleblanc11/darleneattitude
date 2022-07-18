@@ -91,10 +91,11 @@ button {
 
 
 /* Image Section with Subtitle Style End  */
-#scripture,#about,#reachout {
+#scripture,#reachout,#messy,#about {
     
     box-sizing: inherit;
     max-width: 450px;
+    min-width: 300px;
     padding: 10px, 10px, 10px, 10px;
     margin-left: 25px;
 }
@@ -116,6 +117,29 @@ p {
     outline-color: darkgrey;
     padding: 10px;
     margin: 20px;
+}
+
+#messy{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+#jesus{
+    text-align: right;
+}
+
+#hear {
+    text-align: right;
+    color: red;
+    font-size: 36px;
+}
+
+#about {
+    background-image: 
+    url('../AboutDarlenePicture.jpg');
+    background-repeat: no-repeat;
 }
 
 
