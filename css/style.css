@@ -119,7 +119,7 @@ p {
     margin: 20px;
 }
 
-#messy{
+#messy, #about, #reachout{
     background-color: black;
     color: white;
     padding: 10px;
@@ -134,9 +134,14 @@ p {
     text-align: right;
     color: red;
     font-size: 36px;
+    font-family: fantasy;
 }
 
-#about {
+#mfont {
+    font-family: fantasy;
+}
+
+#bigphoto {
     background-image: 
     url('../AboutDarlenePicture.jpg');
     background-repeat: no-repeat;
